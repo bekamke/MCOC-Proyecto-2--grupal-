@@ -11,7 +11,7 @@ _gr = 1e-3*_kg
 vf_x = 5.0*_m/_s
 vf_y = 0.0*_m/_s
 
-x_0 = array([0., 1.], dtype=doube)
+x_0 = array([0., 1.], dtype=double)
 v_0 = array([1., 1.], dtype=double)
 
 x_i = zeros(2, dtype=double)      # posicion actual
@@ -33,25 +33,25 @@ tmax = 1*_s    # tiempo máximo de simulacion
 ti = 0.*_s     # tiempo actual
 
 W = array([0., -m*g])  #Fuerza de peso 
-vf = array([vfx, vfy])
+vf = array([vf_x, vf_y])
 
 Nt = int32(2*tmax / dt)
 x_store = x_0 #zeros((2, Nt))
 v_store = v_0 #zeros((2, Nt))
 t_store = zeros(Nt)
 
-metodo de euler
+#metodo de euler
 i = 0
 while ti < tmax:
 
 	if i % 100 == 0:
-		print "ti =", ti," |x| =", sqtr(dot(xi,xi))
+		print "ti =", ti," |x| =", sqrt(dot(x_i,x_i))
     	#print "xi =", xi
     	#print "vi =", vi
 
 	# evaluar v relativa
-	vrel = vf - vi                      # velocidad relativa
-	norm_vrel = sqtr(dot(vrel, vrel))   # norma velocidad relativa
+	vrel = vf - v_i                      # velocidad relativa
+	norm_vrel = sqrt(dot(vrel, vrel))   # norma velocidad relativa
 
 	# evaluar fuerzas sobre la particula
 	fD = 0.5*Cd*norm_vrel*vrel          # Fuerza de Drag
@@ -63,10 +63,10 @@ while ti < tmax:
 
 	#print "a_i =", a_i
 	# integrar
-	xim1 = xi + vi*dt + ai*(dt**2/2)
-	vim1 = vi + ai*dt
+	xim1 = x_i + v_i*dt + ai*(dt**2/2)
+	vim1 = v_i + ai*dt
 
-	# avanzar al siguiente paso
+# avanzar al siguiente paso
 	x_store[:, i] = xi
 	v_store[:, i] = vi
 	t_store[:] = ti
