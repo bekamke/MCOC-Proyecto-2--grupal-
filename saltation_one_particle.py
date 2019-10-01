@@ -21,10 +21,10 @@ v_i_m1 = zeros(2, dtype=double)   # velocidad siguiente
 
 g = 9.81*_m/(_s**2)         # gravedad
 d = 1*_mm                   # diametro de la particula
-rho = 1550*_kg/(_m**3)      # densidad de la particula, considerando que sea arena 
+rho = 2700*_kg/(_m**3)      # densidad de la particula, considerando que sea arena 
 Cd = 0.47                   # coeficiente de Drag para particula esferica
 
-m = rho*pi*((d/2)**3)*(4/3) # masa de la particula
+m = rho*(4./3./8.)*pi*(d**3) # masa de la particula
 
 
 # Inicializar Euler en x_0
