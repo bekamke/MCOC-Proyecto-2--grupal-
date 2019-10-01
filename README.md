@@ -28,4 +28,4 @@ Para el estudio del comportamiento de una partícula transportada por un fluido 
 
 El desplazamiento en x de la partícula según la velocidad con que se mueve se muestran el el siguiente gráfico, donde el eje "x" representa el desplazameinto y el eje "y" la velocidad en cierto instante 
 
-![imagen p2](https://user-images.githubusercontent.com/53712876/65984203-a5693780-e455-11e9-921b-74b2c56fc694.png)
+![real p2](https://user-images.githubusercontent.com/53712876/65996866-a65a9300-e46e-11e9-945e-d2ca47f3125f.png)
