@@ -12,3 +12,20 @@ Diseñar un modelo que simule el transporte de partículas de sedimento en el fo
 Entender la influencia de la implementación de algoritmos computacionales, entre ellos
 algoritmos de complejidad computacional y métodos (IO).
 [Meta 3]: implementación del código para una partícula con perfil de velocidad
+
+# RESULTADOS PARA UNA PARTÍCILA:
+
+Para el estudio del comportamiento de una partícula transportada por un fluido se usaron los siguinetes datos y supuestos:
+* La partícula transportada corresponde a una grano de arena
+* La forma de la artícula es considerada como esférica 
+* EL comportamiento se estudia mediante relaciones Euler-Lagrange
+
+* Datos usados
+
+    * diámetro de partícula = 1 mm
+    * densidad de partícula = 155 kg/m^3
+    * coeficiente Drag para partícula esférica = 0,47
+
+El desplazamiento en x de la partícula según la velocidad con que se mueve se muestran el el siguiente gráfico, donde el eje "x" representa el desplazameinto y el eje "y" la velocidad en cierto instante 
+
+![imagen p2](https://user-images.githubusercontent.com/53712876/65984203-a5693780-e455-11e9-921b-74b2c56fc694.png)
