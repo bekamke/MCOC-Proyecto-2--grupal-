@@ -41,7 +41,10 @@ v_store = v_0 #zeros((2, Nt))
 t_store = zeros(Nt)
 
 #metodo de euler
+x_store=[]
+v_store=[]
 i = 0
+
 while ti < tmax:
 
 	if i % 100 == 0:
@@ -66,24 +69,23 @@ while ti < tmax:
 	xim1 = x_i + v_i*dt + ai*(dt**2/2)
 	vim1 = v_i + ai*dt
 
-# avanzar al siguiente paso
-	x_store[:, i] = xi
-	v_store[:, i] = vi
+	# avanzar al siguiente paso
 	t_store[:] = ti
 
 	ti += dt
 	i += 1
-	xi = xim1
-	vi = vim1
-	
+	x_i = xim1
+	v_i = vim1
+	x_store.append(x_i)
+	v_store.append(v_i)
 
 # guardar ultimo paso
-x_store[:, i] = xi
-v_store[:, i] = vi
-t_store[:] = ti
+x_store.append(x_i)
+v_store.append(v_i)
+#t_store[:] = ti
 
-print x_store
-
+#print x_store
+#print v_store
 figure()
-plot(x_store[0, :i], x_store[1, :i])
+plot(x_store, v_store)
 show()
