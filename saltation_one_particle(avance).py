@@ -10,9 +10,9 @@ _gr = 1e-3*_kg
 
 # velocidades iniciales
 vfx = 10.0*_m/_s
-vfy = 1.0*_m/_s
+vfy = 0.1*_m/_s
 
-x0 = array([0., 1.], dtype=double)
+x0 = array([0., 1.*-_mm], dtype=double)
 v0 = array([1., 1.], dtype=double)
 
 xi = x0 #zeros(2, dtype=double)      # posicion actual
@@ -31,7 +31,7 @@ V = (4./3.)*pi*(d/2)**3
 m = rho_particula*V # masa de la particula
 
 dt = 0.001*_s    # paso de tiempo 
-tmax = 2*_s    # tiempo maximo de simulacion
+tmax = 2.*_s    # tiempo maximo de simulacion
 ti = 0.*_s     # tiempo actual
 
 W = array([0., -m*g])  #Fuerza de peso
@@ -42,19 +42,19 @@ Nt = len(t)
 
 norm = lambda v: sqrt(dot(v,v))
 
-k_penal = 1000*0.5*Cd*rho_agua*A*norm(v0)/(1*_mm)
+k_penal = 1000.*0.5*Cd*rho_agua*A*norm(v0)/(1*_mm)
 
 def particula(z,t):
 	xi = z[:2]
 	vi = z[2:]
 	vf = array([vfx, vfy])
 	vrel = vf - vi
-	fD = (0.5*Cd*rho_agua*norm(vrel)*A)*vrel #preguntar si es *vrel o /vrel, la misma duda para A
+	fD = (0.5*Cd*rho_agua*norm(vrel)*A)*vrel 
 	# fL = 3.0/4.0*alpha*Cd*()
 	Fi = W + fD + fB
 
 	if xi[1] < 0:
-		Fi[1] += k_penal*xi[1] # preguntar si es k_penal o -k_penal
+		Fi[1] += -k_penal*xi[1] 
 
 
 
