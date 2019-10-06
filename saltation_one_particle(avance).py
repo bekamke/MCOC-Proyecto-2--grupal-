@@ -12,7 +12,7 @@ _gr = 1e-3*_kg
 vfx = 10.0*_m/_s
 vfy = 0.1*_m/_s
 
-x0 = array([0., 1.*-_mm], dtype=double)
+x0 = array([0., 1.*_mm], dtype=double)
 v0 = array([1., 1.], dtype=double)
 
 xi = x0 #zeros(2, dtype=double)      # posicion actual
