@@ -51,7 +51,7 @@ El desplazamiento en x de la partícula según la velocidad con que se mueve se 
    ![grafico_40part](https://user-images.githubusercontent.com/53713496/68253696-56d82b80-0007-11ea-87d1-8ffcf29e16c2.png)
    
    * grafico nunmero de particulas vs tiempo:
-   
+   ![grafico nparticulas vs tiempo](https://user-images.githubusercontent.com/53713496/68254682-eda5e780-0009-11ea-9f93-9950d41dee3c.png)
 
 - Comportamiento del codigo segun el ordenador de Maria Jesus Gutierrez:
 
