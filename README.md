@@ -73,6 +73,7 @@ El desplazamiento en x de la partícula según la velocidad con que se mueve se 
 ![caso 40 particulas](https://user-images.githubusercontent.com/53712876/68254990-c4d22200-000a-11ea-9ca0-53b32edc15d3.png)
 
    * gráfico número de partículas vs tiempo:
+   
 ![grafico](https://user-images.githubusercontent.com/53712876/68255882-3f9c3c80-000d-11ea-8814-67558180dc44.png)
 
 - Comportamiento del codigo segun el ordenador de Benjamin Kamke:
