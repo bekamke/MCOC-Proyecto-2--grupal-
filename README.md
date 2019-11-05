@@ -39,4 +39,7 @@ El desplazamiento en x de la partícula según la velocidad con que se mueve se 
    ![grafico_8part](https://user-images.githubusercontent.com/53713496/68253550-ee894a00-0006-11ea-9731-2be3b19561dc.png)
    
    * para 10 particulas, obtenemos un tiempo de 42,083 seg:
+   ![grafico_10part](https://user-images.githubusercontent.com/53713496/68253621-1d9fbb80-0007-11ea-83bc-dbe6a0f05ea4.png)
+   
+   * para 20 particulas, obtenemos un tiempo de 63,878 seg:
    
