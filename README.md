@@ -29,3 +29,11 @@ Para el estudio del comportamiento de una partícula transportada por un fluido 
 El desplazamiento en x de la partícula según la velocidad con que se mueve se muestran el el siguiente gráfico, donde el eje "x" representa el desplazameinto y el eje "y" la velocidad en cierto instante 
 
 ![real p2](https://user-images.githubusercontent.com/53712876/65996866-a65a9300-e46e-11e9-945e-d2ca47f3125f.png)
+
+# ENTREGA 6 (CODIGO OPTIMIZADO)
+- Comportamiento del codigo segun el ordenador de Santiago Moreno:
+   * para 4 particulas, obtenemos un tiempo de 17,047 seg:
+   ![grafico_4part](https://user-images.githubusercontent.com/53713496/68253233-293eb280-0006-11ea-8581-3c22d9eae137.png)
+   
+   * para 8 particulas, obtenemos un tiempo de 31,409 seg:
+   
