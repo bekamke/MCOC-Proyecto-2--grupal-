@@ -43,3 +43,15 @@ El desplazamiento en x de la partícula según la velocidad con que se mueve se 
    
    * para 20 particulas, obtenemos un tiempo de 63,878 seg:
    ![grafico_20part](https://user-images.githubusercontent.com/53713496/68253677-488a0f80-0007-11ea-9114-bad4d27bd530.png)
+   
+   * para 30 particulas, obtenemos un tiempo de 101,269 seg:
+   ![grafico_30part](https://user-images.githubusercontent.com/53713496/68253688-5344a480-0007-11ea-9357-2f5aae681f96.png)
+   
+   * para 40 particulas, obtenemos un tiempo de 137,651 seg:
+   ![grafico_40part](https://user-images.githubusercontent.com/53713496/68253696-56d82b80-0007-11ea-87d1-8ffcf29e16c2.png)
+
+- Comportamiento del codigo segun el ordenador de Maria Jesus Gutierrez:
+
+- Comportamiento del codigo segun el ordenador de Benjamin Kamke:
+
+- Comportamiento del codigo segun el ordenador de Klaus Brien:
