@@ -49,6 +49,9 @@ El desplazamiento en x de la partícula según la velocidad con que se mueve se 
    
    * para 40 particulas, obtenemos un tiempo de 137,651 seg:
    ![grafico_40part](https://user-images.githubusercontent.com/53713496/68253696-56d82b80-0007-11ea-87d1-8ffcf29e16c2.png)
+   
+   * grafico nunmero de particulas vs tiempo:
+   
 
 - Comportamiento del codigo segun el ordenador de Maria Jesus Gutierrez:
 
