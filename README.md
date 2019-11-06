@@ -124,5 +124,5 @@ En esta oportunidad, el objetivo es mejorar el rendimiento del código anteriorm
    * para 40 particulas, obtenemso un tiempo de 134,059 seg:
    ![grafico_40part](https://user-images.githubusercontent.com/53713496/68255568-5db56d00-000c-11ea-8594-a8dfbb7a3810.png)
 
-   * grafico numero de poarticulas vs tiempo:
+   * grafico numero de particulas vs tiempo:
    ![grafico npart vs tiempo](https://user-images.githubusercontent.com/53713496/68255562-5c844000-000c-11ea-86f8-c5839f4c2528.png)
