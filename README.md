@@ -32,6 +32,7 @@ El desplazamiento en x de la partícula según la velocidad con que se mueve se 
 
 # ENTREGA 6 (CODIGO OPTIMIZADO)
 - Comportamiento del codigo segun el ordenador de Santiago Moreno:
+
    * para 4 particulas, obtenemos un tiempo de 17,047 seg:
    ![grafico_4part](https://user-images.githubusercontent.com/53713496/68253233-293eb280-0006-11ea-8581-3c22d9eae137.png)
    
@@ -54,6 +55,7 @@ El desplazamiento en x de la partícula según la velocidad con que se mueve se 
    ![grafico nparticulas vs tiempo](https://user-images.githubusercontent.com/53713496/68254682-eda5e780-0009-11ea-9f93-9950d41dee3c.png)
 
 - Comportamiento del codigo segun el ordenador de Maria Jesus Gutierrez:
+
    * para 4 particulas, obtenemos un tiempo de 11,138 seg:
 ![caso 4 particulas](https://user-images.githubusercontent.com/53712876/68254991-c56ab880-000a-11ea-8405-7266a9fd5e24.png)
 
@@ -77,6 +79,7 @@ El desplazamiento en x de la partícula según la velocidad con que se mueve se 
 ![grafico](https://user-images.githubusercontent.com/53712876/68255882-3f9c3c80-000d-11ea-8814-67558180dc44.png)
 
 - Comportamiento del codigo segun el ordenador de Benjamin Kamke:
+
    * para 4 particulas, obtenemos un tiempo de 52,38 seg:
 ![Para 4 particulas](https://user-images.githubusercontent.com/53590243/68257811-f21ed000-000a-11ea-83d0-2762e4da6241.png)
  
@@ -94,3 +97,17 @@ El desplazamiento en x de la partícula según la velocidad con que se mueve se 
 
 
 - Comportamiento del codigo segun el ordenador de Klaus Brien:
+
+   * para 4 particulas, obtenemos un tiempo de 17,549 seg:
+   
+   * para 8 particulas, obtenemos un tiempo de 32,379 seg:
+   
+   * para 10 particulas, obtenemos un tiempo de 34,851 seg:
+   
+   * para 20 particulas, obtenemos un tiempo de 63,949 seg:
+   
+   * para 30 particulas, obtenemos un tiempo de 108,357 seg:
+   
+   * para 40 particulas, obtenemos un tiempo de 134,059 seg:
+   
+   * grafico nunmero de particulas vs tiempo:
