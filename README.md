@@ -31,6 +31,10 @@ El desplazamiento en x de la partícula según la velocidad con que se mueve se 
 ![real p2](https://user-images.githubusercontent.com/53712876/65996866-a65a9300-e46e-11e9-945e-d2ca47f3125f.png)
 
 # ENTREGA 6 (CODIGO OPTIMIZADO)
+
+En la entrega 4 se implementó y validó un código que buscaba modelar y tratar de simular las trayectorias de partículas sedimentarias arrastradas por la corriente de un río, mediante un método lagrangiano. Dicho modelo seguía a cada partícula individualmente, lo que significa que a mayor número de partículas, mayor la cantidad de veces que tendrá que ser corrido el ciclo. Posteriormente se llevó a cabo una evaluación del impacto de la complejidad computacional del código sobre el rendimiento del mismo.
+En esta oportunidad, el objetivo es mejorar el rendimiento del código anteriormente generado mediante una serie de ajustes que optimizan el rendimiento. Nuevamente se analizaron puntos críticos, puntos de choque entre partículas y diferentes números de partículas, con lo cual se logro una notoria mejora en el proceso de codificacion del codigo en en cual se entregaban resultados con un gran numero de particulas a una velociadad bastante mayor en comparacion con el codigo no optimizado.
+
 - Comportamiento del codigo segun el ordenador de Santiago Moreno:
    * para 4 particulas, obtenemos un tiempo de 17,047 seg:
    ![grafico_4part](https://user-images.githubusercontent.com/53713496/68253233-293eb280-0006-11ea-8581-3c22d9eae137.png)
@@ -102,3 +106,4 @@ El desplazamiento en x de la partícula según la velocidad con que se mueve se 
 
 
 - Comportamiento del codigo segun el ordenador de Klaus Brien:
+
